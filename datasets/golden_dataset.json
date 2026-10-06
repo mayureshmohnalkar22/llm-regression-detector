@@ -1,0 +1,322 @@
+[
+  {
+    "id": "billing_001",
+    "input": "I was charged twice for my subscription this month.",
+    "expected_category": "billing"
+  },
+  {
+    "id": "billing_002",
+    "input": "Where can I download my March invoice?",
+    "expected_category": "billing"
+  },
+  {
+    "id": "billing_003",
+    "input": "Please cancel my plan and refund the renewal from today.",
+    "expected_category": "billing"
+  },
+  {
+    "id": "billing_004",
+    "input": "My credit card payment keeps getting declined.",
+    "expected_category": "billing"
+  },
+  {
+    "id": "billing_005",
+    "input": "Why did the price on my renewal increase?",
+    "expected_category": "billing"
+  },
+  {
+    "id": "billing_006",
+    "input": "Can I switch from monthly to annual billing?",
+    "expected_category": "billing"
+  },
+  {
+    "id": "billing_007",
+    "input": "I was billed after cancelling my trial.",
+    "expected_category": "billing"
+  },
+  {
+    "id": "billing_008",
+    "input": "How do I update the card used for payment?",
+    "expected_category": "billing"
+  },
+  {
+    "id": "billing_009",
+    "input": "My receipt shows the wrong company name.",
+    "expected_category": "billing"
+  },
+  {
+    "id": "billing_010",
+    "input": "Can you send an invoice to our finance team?",
+    "expected_category": "billing"
+  },
+  {
+    "id": "billing_011",
+    "input": "I need a refund for an accidental upgrade.",
+    "expected_category": "billing"
+  },
+  {
+    "id": "billing_012",
+    "input": "Is sales tax included in the listed price?",
+    "expected_category": "billing"
+  },
+  {
+    "id": "billing_013",
+    "input": "My discount code did not apply at checkout.",
+    "expected_category": "billing"
+  },
+  {
+    "id": "billing_014",
+    "input": "How can I see my billing history?",
+    "expected_category": "billing"
+  },
+  {
+    "id": "billing_015",
+    "input": "We need to pay by purchase order.",
+    "expected_category": "billing"
+  },
+  {
+    "id": "billing_016",
+    "input": "The app says my payment is overdue but I already paid.",
+    "expected_category": "billing"
+  },
+  {
+    "id": "technical_001",
+    "input": "The dashboard stays blank after I log in on Chrome.",
+    "expected_category": "technical"
+  },
+  {
+    "id": "technical_002",
+    "input": "Our Slack integration stopped sending notifications this morning.",
+    "expected_category": "technical"
+  },
+  {
+    "id": "technical_003",
+    "input": "I get error 500 whenever I export a CSV.",
+    "expected_category": "technical"
+  },
+  {
+    "id": "technical_004",
+    "input": "The mobile app crashes when I open reports.",
+    "expected_category": "technical"
+  },
+  {
+    "id": "technical_005",
+    "input": "The search bar returns no results for any customer.",
+    "expected_category": "technical"
+  },
+  {
+    "id": "technical_006",
+    "input": "File uploads fail at 80 percent.",
+    "expected_category": "technical"
+  },
+  {
+    "id": "technical_007",
+    "input": "Our API requests are timing out.",
+    "expected_category": "technical"
+  },
+  {
+    "id": "technical_008",
+    "input": "The calendar integration creates duplicate events.",
+    "expected_category": "technical"
+  },
+  {
+    "id": "technical_009",
+    "input": "The app is extremely slow this afternoon.",
+    "expected_category": "technical"
+  },
+  {
+    "id": "technical_010",
+    "input": "I cannot connect our Salesforce integration.",
+    "expected_category": "technical"
+  },
+  {
+    "id": "technical_011",
+    "input": "A report is showing incorrect totals after filtering.",
+    "expected_category": "technical"
+  },
+  {
+    "id": "technical_012",
+    "input": "The page freezes when I click Save.",
+    "expected_category": "technical"
+  },
+  {
+    "id": "technical_013",
+    "input": "The webhook endpoint receives no events.",
+    "expected_category": "technical"
+  },
+  {
+    "id": "technical_014",
+    "input": "The CSV import says the headers are invalid.",
+    "expected_category": "technical"
+  },
+  {
+    "id": "technical_015",
+    "input": "Two-factor authentication code screen keeps spinning.",
+    "expected_category": "technical"
+  },
+  {
+    "id": "technical_016",
+    "input": "Notifications are delayed by more than an hour.",
+    "expected_category": "technical"
+  },
+  {
+    "id": "account_001",
+    "input": "I forgot my password and the reset email never arrives.",
+    "expected_category": "account"
+  },
+  {
+    "id": "account_002",
+    "input": "Can you add my teammate as an admin?",
+    "expected_category": "account"
+  },
+  {
+    "id": "account_003",
+    "input": "Someone changed the email on my account. I need help securing it.",
+    "expected_category": "account"
+  },
+  {
+    "id": "account_004",
+    "input": "How do I change my profile picture?",
+    "expected_category": "account"
+  },
+  {
+    "id": "account_005",
+    "input": "I cannot log in with Google sign-in.",
+    "expected_category": "account"
+  },
+  {
+    "id": "account_006",
+    "input": "Please remove a former employee from our workspace.",
+    "expected_category": "account"
+  },
+  {
+    "id": "account_007",
+    "input": "Where can I find my account ID?",
+    "expected_category": "account"
+  },
+  {
+    "id": "account_008",
+    "input": "My account is locked after too many login attempts.",
+    "expected_category": "account"
+  },
+  {
+    "id": "account_009",
+    "input": "Can I transfer workspace ownership to another person?",
+    "expected_category": "account"
+  },
+  {
+    "id": "account_010",
+    "input": "I need to update my name in the account.",
+    "expected_category": "account"
+  },
+  {
+    "id": "account_011",
+    "input": "How do I enable two-factor authentication?",
+    "expected_category": "account"
+  },
+  {
+    "id": "account_012",
+    "input": "A teammate cannot access the project I shared.",
+    "expected_category": "account"
+  },
+  {
+    "id": "account_013",
+    "input": "Can I merge two user accounts?",
+    "expected_category": "account"
+  },
+  {
+    "id": "account_014",
+    "input": "I received a suspicious login notification.",
+    "expected_category": "account"
+  },
+  {
+    "id": "account_015",
+    "input": "Please delete my account permanently.",
+    "expected_category": "account"
+  },
+  {
+    "id": "account_016",
+    "input": "Why does my new teammate not have permission to view invoices?",
+    "expected_category": "account"
+  },
+  {
+    "id": "general_001",
+    "input": "Do you offer discounts for nonprofit organizations?",
+    "expected_category": "general"
+  },
+  {
+    "id": "general_002",
+    "input": "I love the new mobile layout. Great work!",
+    "expected_category": "general"
+  },
+  {
+    "id": "general_003",
+    "input": "What features are planned for the next release?",
+    "expected_category": "general"
+  },
+  {
+    "id": "general_004",
+    "input": "Do you have a free plan for students?",
+    "expected_category": "general"
+  },
+  {
+    "id": "general_005",
+    "input": "Can you explain what your product does?",
+    "expected_category": "general"
+  },
+  {
+    "id": "general_006",
+    "input": "Where can I read your privacy policy?",
+    "expected_category": "general"
+  },
+  {
+    "id": "general_007",
+    "input": "Do you support customers in Canada?",
+    "expected_category": "general"
+  },
+  {
+    "id": "general_008",
+    "input": "How can I contact sales?",
+    "expected_category": "general"
+  },
+  {
+    "id": "general_009",
+    "input": "Is there a product roadmap available?",
+    "expected_category": "general"
+  },
+  {
+    "id": "general_010",
+    "input": "Can I request a new feature?",
+    "expected_category": "general"
+  },
+  {
+    "id": "general_011",
+    "input": "What are your business hours for support?",
+    "expected_category": "general"
+  },
+  {
+    "id": "general_012",
+    "input": "Do you have training videos for new users?",
+    "expected_category": "general"
+  },
+  {
+    "id": "general_013",
+    "input": "Is your service compliant with SOC 2?",
+    "expected_category": "general"
+  },
+  {
+    "id": "general_014",
+    "input": "Can I join a beta program?",
+    "expected_category": "general"
+  },
+  {
+    "id": "general_015",
+    "input": "Where can I read customer success stories?",
+    "expected_category": "general"
+  },
+  {
+    "id": "general_016",
+    "input": "Do you offer onboarding sessions for new teams?",
+    "expected_category": "general"
+  }
+]

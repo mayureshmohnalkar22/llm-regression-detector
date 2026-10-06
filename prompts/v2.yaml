@@ -1,0 +1,5 @@
+name: intentionally-simple-classifier
+temperature: 0.4
+system: |
+  Categorize the customer message quickly as billing, technical, account, or general.
+  Return JSON matching the supplied schema. Prefer general when uncertain.
