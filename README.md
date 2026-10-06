@@ -44,4 +44,4 @@ This workflow makes it possible to test prompt updates before deployment and cat
 
 ### Case Updates
 
-![Evaluated Cases Update](image.png)
+![Evaluated Cases Update](image-2.png)
