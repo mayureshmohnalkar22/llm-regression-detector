@@ -15,8 +15,8 @@ def compare_runs(baseline: dict, candidate: dict, accuracy_drop_threshold: float
         status = "pass"
     return {
         "status": status,
-        "baseline_run_id": baseline["run_id"],
-        "candidate_run_id": candidate["run_id"],
+        "baseline_run_id": baseline.get("run_id", "baseline"),
+        "candidate_run_id": candidate.get("run_id", "candidate"),
         "accuracy_delta": round(delta, 4),
         "latency_delta_ms": round(
             candidate["metrics"].get("mean_latency_ms", 0) - baseline["metrics"].get("mean_latency_ms", 0), 1

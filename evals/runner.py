@@ -38,14 +38,24 @@ def load_runs() -> list[dict]:
 def parse_runs(content: str) -> list[dict]:
     """Read newline-delimited JSON, including early files written with literal \\n."""
     decoder = json.JSONDecoder()
-    runs, index = [], 0
+    runs = []
+    index = 0
+
     while index < len(content):
-        while index < len(content) and (content[index].isspace() or content.startswith("\\\\n", index)):
-            index += 2 if content.startswith("\\\\n", index) else 1
+        while index < len(content):
+            if content.startswith("\\n", index):
+                index += 2
+            elif content[index].isspace():
+                index += 1
+            else:
+                break
+
         if index >= len(content):
             break
+
         run, index = decoder.raw_decode(content, index)
         runs.append(run)
+
     return runs
 
 
